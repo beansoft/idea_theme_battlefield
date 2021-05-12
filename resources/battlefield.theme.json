@@ -1,0 +1,179 @@
+{
+  "name": "BattleField",
+  "dark": true,
+  "author": "",
+  "editorScheme": "/battlefield.xml",
+  "ui": {
+    "*": {
+      "background": "#252625",
+      "disabledBackground": "#252526",
+      "inactiveBackground": "#323335",
+      "selectionBackground": "#313234",
+      "selectionInactiveBackground": "#313234",
+      "lightSelectionBackground": "#353638",
+      "lightSelectionInactiveBackground": "#252526",
+      "borderColor": "#3d3e40",
+      "disabledBorderColor": "#3d3e40",
+      "separatorForeground": "#3d3e40",
+      "separatorColor": "#3d3e40",
+      "lineSeparatorColor": "#3d3e40",
+      "underlineColor": "#ff9900",
+      "underlineHeight": 2
+    },
+    "Counter" : {
+      "foreground" : "#ececec",
+      "background" : "#3E434D"
+    },
+
+    "Borders": {
+      "color": "#3d3e40",
+      "ContrastBorderColor": "#3d3e40"
+    },
+
+    "Component": {
+      "arc": 2,
+      "borderColor": "#3d3e40",
+      "focusColor": "#FFFFFFA8"
+    },
+
+    "TextField.background": "#1f1f1f",
+    "FormattedTextField.background": "#1f1f1f",
+    "TextArea.background": "#1f1f1f",
+
+    "ComboBox": {
+      "ArrowButton": {
+        "nonEditableBackground": "#1f1f1f"
+      },
+
+      "nonEditableBackground": "#1f1f1f",
+      "background": "#1f1f1f"
+    },
+
+    "ActionButton": {
+      "hoverBackground": "#3d3e40",
+      "hoverBorderColor": "#3d3e40",
+      "pressedBackground": "#3d3e40",
+      "pressedBorderColor": "#3d3e40"
+    },
+
+    "ProgressBar": {
+      "background" : "#00000080",
+      "foreground" : "#d6dde6",
+      "progressColor" : "#FF9900"
+    },
+
+    "Button": {
+      "foreground": "#ececec",
+      "arc": 2,
+      "focusedBorderColor": "#FFFFFFA8",
+      "shadowColor": "#00000000",
+      "startBackground": "#00000000",
+      "endBackground": "#00000000",
+      "startBorderColor": "#FFFFFFA8",
+      "endBorderColor": "#FFFFFFA8",
+
+      "default": {
+        "foreground": "#131313",
+        "startBackground": "#FFFFFF",
+        "endBackground": "#FFFFFF",
+        "startBorderColor": "#00000000",
+        "endBorderColor": "#00000000",
+        "shadowColor": "#00000000",
+        "focusedBorderColor": "#ffffffa8",
+        "focusColor" : "#ffffffa8"
+      }
+    },
+
+    "Table.stripeColor": "#2b2b2d",
+
+    "Tree": {
+      "rowHeight": 20
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#252526"
+      },
+
+      "HeaderTab": {
+        "underlinedTabBackground": "#313234"
+      },
+
+      "Button": {
+        "hoverBackground": "#313234",
+        "selectedBackground": "#313234"
+      }
+    },
+
+    "Popup": {
+      "Header": {
+        "activeBackground": "#313234",
+        "inactiveBackground": "#313234"
+      }
+    },
+
+    "DefaultTabs": {
+      "hoverBackground": "#000000",
+      "underlineColor": "#ff9900",
+      "underlinedTabBackground": "#313234",
+      "underlineHeight": 2
+    },
+
+    "SearchEverywhere": {
+      "Tab": {
+        "selectedForeground": "#CFD2D5",
+        "selectedBackground": "#313234"
+      }
+    },
+
+    "Plugins": {
+      "Tab": {
+        "selectedBackground": "#313234",
+        "hoverBackground": "#000000"
+      },
+      "Button": {
+        "installBackground" : "#00000000",
+        "installBorderColor" : "#446930",
+        "installForeground" : "#446930",
+        "installFillBackground" : "#446930",
+        "installFillForeground" : "#000000"
+      },
+      "lightSelectionBackground": "#313234",
+      "tagBackground":"#4D4D4D",
+      "tagForeground" : "#ffffffAA"
+    },
+
+    "EditorTabs": {
+      "underlinedTabBackground": "#313234",
+      "underlinedTabForeground": "#CFD2D5",
+      "underlineColor": "#ff9900",
+      "inactiveUnderlineColor": "#7F4c00",
+      "underlineHeight": 2
+    },
+
+    "StatusBar": {
+      "hoverBackground": "#313234"
+    },
+
+    "VersionControl": {
+      "RefLabel.foreground": "#CFD2D5",
+      "Log.Commit": {
+        "currentBranchBackground": "#252c40",
+        "unmatchedForeground": "#9192a3"
+      },
+      "FileHistory.Commit.selectedBranchBackground": "#252c40"
+    },
+
+    "FileColor": {
+      "Yellow": "#302E2D"
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Checkbox.Background.Default.Dark": "#1f1f1f",
+      "Checkbox.Border.Default.Dark": "#3d3e40",
+      "Checkbox.Focus.Wide.Dark": "#ffffffa8",
+      "Checkbox.Background.Disabled.Dark": "#1f1f1f",
+      "Checkbox.Border.Disabled.Dark": "#252526"
+    }
+  }
+}

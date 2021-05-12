@@ -1,0 +1,32 @@
+<idea-plugin>
+  <id>com.github.beansoft.theme.battlefield</id>
+  <name>BattleField Theme BETA</name>
+  <version>1.0</version>
+  <vendor email="beansoft@126.com" url="https://github.com/beansoft/">BeanSoft</vendor>
+
+  <description><![CDATA[
+    A darker BattleField theme based on Darcula.
+    ]]></description>
+
+  <change-notes><![CDATA[
+    Init version.
+    ]]>
+  </change-notes>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="191.0"/>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="0196b283-d2b3-4c70-9490-5fe5332da35f" path="/battlefield.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
