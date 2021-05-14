@@ -8,8 +8,8 @@
       "background": "#252625",
       "disabledBackground": "#252526",
       "inactiveBackground": "#323335",
-      "selectionBackground": "#313234",
-      "selectionInactiveBackground": "#313234",
+      "selectionBackground": "#476DAC",
+      "selectionInactiveBackground": "#476DAC77",
       "lightSelectionBackground": "#353638",
       "lightSelectionInactiveBackground": "#252526",
       "borderColor": "#3d3e40",
@@ -135,7 +135,7 @@
         "installBorderColor" : "#446930",
         "installForeground" : "#446930",
         "installFillBackground" : "#446930",
-        "installFillForeground" : "#000000"
+        "installFillForeground" : "#FFFFFF"
       },
       "lightSelectionBackground": "#313234",
       "tagBackground":"#4D4D4D",
@@ -157,11 +157,12 @@
     "VersionControl": {
       "RefLabel.foreground": "#CFD2D5",
       "Log.Commit": {
-        "currentBranchBackground": "#252c40",
         "unmatchedForeground": "#9192a3"
       },
-      "FileHistory.Commit.selectedBranchBackground": "#252c40"
+      "FileHistory.Commit.selectedBranchBackground": "#446930"
     },
+
+    "VersionControl.GitLog.remoteBranchIconColor" : "#499CCA",
 
     "FileColor": {
       "Yellow": "#302E2D"
