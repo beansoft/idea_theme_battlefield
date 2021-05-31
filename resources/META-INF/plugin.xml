@@ -1,11 +1,12 @@
 <idea-plugin>
   <id>com.github.beansoft.theme.battlefield</id>
-  <name>BattleField Theme BETA</name>
-  <version>1.0.1</version>
+  <name>BettleField Theme BETA</name>
+  <version>1.0.2</version>
   <vendor email="beansoft@126.com" url="https://github.com/beansoft/">BeanSoft</vendor>
 
   <description><![CDATA[
-    A darker BattleField theme based on Darcula.
+    A IJ theme based on <a href="https://plugins.jetbrains.com/plugin/12692-darcula-darker-theme">Darcula Darker Theme</a> and
+    some color inspired by the BattleField UI.
     <p>
     <img src="https://plugins.jetbrains.com/files/16781/screenshot_71d6c5b1-aff4-4e24-af9b-d410246c20b8"
     width="491" height="384"/>
@@ -13,7 +14,10 @@
     ]]></description>
 
   <change-notes><![CDATA[
-    Update VCS and selection color.
+    <br>1.0.2
+    <br>-Rename the theme name.
+    <br> 1.0.1
+    <br>Update VCS and selection color.
     ]]>
   </change-notes>
 
